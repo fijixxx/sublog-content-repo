@@ -1,0 +1,37 @@
+{
+  "name": "s3-private-bucket-for-trail",
+  "version": "0.1.0",
+  "bin": {
+    "s3-private-bucket-for-trail": "bin/s3-private-bucket-for-trail.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.83.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "aws-cdk": "1.83.0",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.4.2",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudtrail": "^1.83.0",
+    "@aws-cdk/aws-iam": "^1.83.0",
+    "@aws-cdk/aws-s3": "^1.83.0",
+    "@aws-cdk/aws-sqs": "^1.83.0",
+    "@aws-cdk/core": "1.83.0",
+    "source-map-support": "^0.5.16"
+  }
+}
